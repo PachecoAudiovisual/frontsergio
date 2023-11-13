@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* CSS document*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container-nav {
+  height: 100px;
+  padding-left: 10%;
+}
+.logotipo-nav {
+  height: 60px;
+  position: absolute;
+  top: 30px;
+}
+
+.container-banner1 {
+  background-image: url(img/banners-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 90%;
+  margin-top: 2%;
+}
+
+.contenedor {
+  margin: 5% auto 0% auto;
+}
+
+.contenedor-texto p {
+  margin-top: 30px;
+}
+
+.img-ciudad {
+  height: 100%;
+}
+
+.videobanner {
+  width: 100%;
+}
+
+footer {
+  height: 500px;
+  background-color: white;
+  padding-top: 15%;
+  color: dimgrey;
+}
+footer a {
+  text-decoration: none;
+  color: dimgrey;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+footer p {
+  margin-top: 40px;
+}
